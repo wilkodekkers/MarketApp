@@ -9,8 +9,8 @@ class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div>
-                    <Header/>
+                <Header />
+                <div className='container'>
                     <Switch>
                         <Route exact path='/' component={ProductList}></Route>
                         <Route path='/test' component={Test}></Route>
